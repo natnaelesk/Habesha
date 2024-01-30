@@ -1,5 +1,5 @@
 {
-  "homepage":"https://natnaelesk.github.io/Habesha-Haven",
+  "homepage": "https://natnaelesk.github.io/Habesha-Haven",
   "name": "Habesha-Haven",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
